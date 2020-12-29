@@ -6,3 +6,7 @@ var input = document.getElementById('input'), // input/output button
     result = document.getElementById('result'), // equal button
     clear = document.getElementById('clear'), // clear button
     resultDisplayed = false; // flag to keep an eye on what output is displayed
+
+// adding click handlers to number buttons
+for (var i = 0; i < number.length; i++) {
+    number[i].addEventListener("click", function(e) {
