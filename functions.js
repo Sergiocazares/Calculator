@@ -111,3 +111,8 @@ result.addEventListener("click", function() {
 
     resultDisplayed = true; // turning flag if result is displayed
 });
+
+// clearing the input on press of clear
+clear.addEventListener("click", function() {
+    input.innerHTML = "";
+})
